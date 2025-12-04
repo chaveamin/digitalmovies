@@ -1,7 +1,27 @@
 @use "../global/vars" as *;
 
 body {
-  background: var(--zinc-900);
-  color: var(--zinc-50);
+  background: oklch(var(--zinc-900));
+  color: oklch(var(--zinc-50));
   font-family: $font-liana;
+}
+
+a {
+  transition: all 0.2s ease;
+}
+
+@mixin section {
+  padding-inline: 116px;
+  padding-block: 26px;
+}
+@mixin flex($items, $justify, $gap-y, $gap-x) {
+  display: flex;
+  align-items: $items;
+  justify-content: $justify;
+  column-gap: $gap-x;
+  row-gap: $gap-y;
+}
+
+.section {
+  @include section;
 }

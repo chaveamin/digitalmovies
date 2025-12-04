@@ -1,10 +1,17 @@
 @use "../global/vars" as *;
 
 .topbar {
+  border-bottom: 1px solid oklch(var(--white) / 7.5%);
+
   &__nav {
-    display: flex;
-    align-items: center;
-    gap: 24px;
-    color: var(--zinc-400);
+    @include flex(center, center, 24px, 24px);
+  }
+
+  &__nav-item {
+    color: oklch(var(--zinc-400));
+
+    &:hover {
+      color: oklch(var(--zinc-50));
+    }
   }
 }
