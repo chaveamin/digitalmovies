@@ -1,0 +1,19 @@
+{
+  "name": "digitalmovies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaveamin/digitalmovies.git"
+  },
+  "author": "Amin Chavepour",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chaveamin/digitalmovies/issues"
+  },
+  "homepage": "https://github.com/chaveamin/digitalmovies#readme"
+}
