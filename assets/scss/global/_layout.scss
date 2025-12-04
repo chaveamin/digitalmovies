@@ -1,0 +1,7 @@
+@use "../global/vars" as *;
+
+body {
+  background: var(--zinc-900);
+  color: var(--zinc-50);
+  font-family: $font-liana;
+}

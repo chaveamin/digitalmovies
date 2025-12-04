@@ -1,6 +1,2 @@
-@forward "global/vars";
-@forward "global/normalize";
-
-.name {
-  font-size: $fs-lg;
-}
+@use "../scss/global";
+@use "../scss/components";
